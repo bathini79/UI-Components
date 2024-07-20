@@ -1,5 +1,6 @@
 .App {
   text-align: center;
+  padding: 30px;
 }
 
 .App-logo {
@@ -8,14 +9,12 @@
 }
 
 .App-header {
-  background-color: #282c34;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
   font-size: calc(10px + 2vmin);
-  color: white;
 }
 
 .App-link {
@@ -28,4 +27,55 @@
 
 .small {
   font-size: 0.75rem;
+}
+.tabs-index{
+  padding: 5px;
+}
+.tabs-header{
+  display: flex;
+  cursor: pointer;
+  border: 0 1 black;
+ 
+}
+.container{
+  width: 500px;
+  height: 500px;
+  background-color: aliceblue;
+}
+
+.accordian-container{
+  width: 1200px;
+  height: 200px;
+  background-color: aliceblue;
+  padding: 20px;
+}
+.div-accordian{
+  border: 1px solid black;
+}
+.title-accordian{
+  display: flex;
+  justify-content: space-between;
+  padding: 2px;
+}
+
+.corousal-container{
+  width: 1200px;
+  height: 500px;
+  background-color: aliceblue;
+}
+.slide-div{
+  display: flex;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+  height: 100%;
+}
+.corousal-btn{
+/* position:absolute; */
+width: 40px;
+height: 40px;
+cursor:pointer
+}
+.corousal-text{
+  width: 100%;
 }
